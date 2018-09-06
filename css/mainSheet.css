@@ -1,8 +1,14 @@
 body {
   margin: 0;
   background-color: #e8f5e9;
+  width: auto;
+  min-width: 1250;
+  height: 100%;
+  min-height: 420;
 }
-
+#wrapper{
+  min-height: 99%
+}
 #banner {
   /* margins */
   margin-left: auto;
@@ -17,8 +23,8 @@ body {
 
 #logo {
   width: 150px;
-  /* margins */
   margin-left: auto;
+  /* margins */
   margin-right: auto;
 }
 
@@ -59,6 +65,7 @@ body {
 
 .nav_item:hover {
   background-color: #43a047;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav_link {
@@ -88,11 +95,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   /* margins */
-  margin-left: auto;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
   /* positioning */
+  margin-bottom: 10px;
   float: right;
   position: relative;
 }
@@ -125,7 +132,7 @@ body {
   /* margins */
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: auto;
+  margin-right: 10px;
   margin-left: 10px;
 }
 
@@ -136,13 +143,14 @@ body {
 #bot_banner {
   width: 100%;
   text-align: center;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
   float: left;
+  background-color: #02570f
 }
 
 .CR_banner {
