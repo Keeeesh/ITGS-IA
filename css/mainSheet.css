@@ -7,7 +7,8 @@ body {
   min-height: 420;
 }
 #wrapper{
-  min-height: 99%
+  min-height: 100%;
+  position:relative;
 }
 #banner {
   /* margins */
@@ -145,11 +146,7 @@ body {
   text-align: center;
   position: absolute;
   bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 0;
-  float: left;
+  margin-bottom: 0px;
   background-color: #02570f
 }
 
