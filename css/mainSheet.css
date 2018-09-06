@@ -54,7 +54,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 25px;
-
   transition: background 0.15s ease-in;
 }
 
@@ -130,6 +129,23 @@ body {
   margin-left: 10px;
 }
 
-.SB_heading{
+.SB_heading {
   font-family: sans-serif;
+}
+
+#bot_banner {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  float: left;
+}
+
+.CR_banner {
+  font-size: 15px;
+  font-family: serif;
 }
